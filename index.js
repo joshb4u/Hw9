@@ -137,7 +137,7 @@ ${tests}
 \n Please contact ${gitData.name} (Author)
 
 \n![ProfilePicture](${gitData.avatar_url})
-\nGithub Email: "hidden"
+\nGithub Email: "hidden" (Email showing null when retrieving ${gitData.email} from Github API)
 
 `)
 fs.writeFileSync( 'Readme.md',result )
