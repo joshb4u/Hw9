@@ -57,3 +57,7 @@ N/A
 
 Github Email: "hidden"
 
+
+## GIF IMAGE
+
+![Readme Generator.gif](https://github.com/joshb4u/Hw9/blob/master/Assets/Readme%20Generator.gif)
