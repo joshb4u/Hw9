@@ -6,7 +6,7 @@
 ![last commit](https://img.shields.io/github/last-commit/joshb4u/Hw9)
 
 
- A command-line application that dynamically generates a README.md based on the user's input. The user will be prompted for his/her GitHub username, which will be used to make a call to the GitHub API to retrieve his/her email and profile image. The user will then be prompted with questions about his/her project such as installation, license, contributors, usage etc. Using Async function (Asynchronous JavaScript) a Good Readme Markdown file is created.  I have also added my friend’s (Sujatha M) Github account as contributor, after receiving her consent, to showcase that this Readme generator could successfully add contributors to Project.
+ A command-line application that dynamically generates a README.md based on the user's input. The user will be prompted for his/her GitHub username, which will be used to make a call to the GitHub API to retrieve his/her email and profile image. The user will then be prompted with questions about his/her project such as installation, license, contributors, usage etc. Using Async function (Asynchronous JavaScript), a Good Readme Markdown file is created.  I have also added my friend’s (Sujatha M) Github account as contributor, after getting her consent, to showcase that this Readme generator could successfully add contributors to Project.
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -56,6 +56,7 @@ N/A
 ![ProfilePicture](https://avatars2.githubusercontent.com/u/59143348?v=4)
 
 Github Email: "hidden"
+//(Email showing null when retrieving ${gitData.email} from Github API)//
 
 
 ## ReadmeGenerator.gif
