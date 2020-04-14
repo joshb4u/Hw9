@@ -6,7 +6,7 @@
 ![last commit](https://img.shields.io/github/last-commit/joshb4u/Hw9)
 
 
- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ A command-line application that dynamically generates a README.md based on the user's input. The user will be prompted for his/her GitHub username, which will be used to make a call to the GitHub API to retrieve his/her email and profile image. The user will then be prompted with questions about his/her project such as installation, license, contributors, usage etc. Using Async function (Asynchronous JavaScript) a Good Readme Markdown file is created.  
 
 ## Table of Contents
 * [Installation](#Installation)
