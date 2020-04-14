@@ -49,14 +49,12 @@ async function asyncCall(){
         },
         {
             type:"input",
-            message:"Enter the NAMES of any contributors for this repo.",
-            default:"None",
+            message:"Enter the NAMES of any contributors for this repo:",
             name:"contributorsName"
         },
         {
             type:"input",
-            message:"Provide the GITHUB USERNAME of the contributors.",
-            default:"None",
+            message:"Provide the GITHUB USERNAMES of the contributors:",
             name:"contributorGitUsername"
         },
         {
@@ -97,15 +95,20 @@ async function asyncCall(){
 
 let result = (`
 # ${projectTitle}
+![Code Size](https://img.shields.io/github/languages/code-size/joshb4u/Hw9)
+![Repo Size](https://img.shields.io/github/repo-size/joshb4u/Hw9)
+![languages](https://img.shields.io/github/languages/top/joshb4u/Hw9)
+![last commit](https://img.shields.io/github/last-commit/joshb4u/Hw9)
+
 \n ${projectDescription}
 
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Contributors](#Contributors)
-* [Tests](#Tests)
 * [License](#License)
-* [Author](#Author)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
 \n## Installation
 \`\`\`
@@ -117,31 +120,28 @@ ${installationProcess}
 ${usage}
 \`\`\`
 
-\n## Contributors
+\n## License
+This project is licensed under the ${licenseName} 
+\n[![license](https://img.shields.io/npm/l/license)](${licenseURL})
+
+\n## Contributing
 ${info}
 \n${contributorsName}
 
-
 \n## Tests
 \`\`\`
-\n${tests}
+${tests}
 \`\`\`
 
-
-\n## License
-This project is licensed under the ${licenseName} 
-\n[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](${licenseURL})
-
-\n## Author
-\n${gitData.name}
+\n## Questions
+\n Please contact ${gitData.name} (Author)
 
 \n![ProfilePicture](${gitData.avatar_url})
 \nGithub Email: "hidden"
-\nGithub Repos URL: ${gitData.repos_url}
 
 `)
 fs.writeFileSync( 'Readme.md',result )
 console.log("file generated...")
 }
 asyncCall();
-//Included one LICENSE badge (MIT) herewith
+//Email showing null when retrieving from github API using ${gitData.email}.
