@@ -56,7 +56,7 @@ N/A
 ![ProfilePicture](https://avatars2.githubusercontent.com/u/59143348?v=4)
 
 Github Email: "hidden"
-//(Email showing null when retrieving ${gitData.email} from Github API)//
+\n//(Email showing null when retrieving ${gitData.email} from Github API)//
 
 
 ## ReadmeGenerator.gif
