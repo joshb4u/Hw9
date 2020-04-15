@@ -134,7 +134,7 @@ ${tests}
 \`\`\`
 
 \n## Questions
-\n Please contact ${gitData.name} (Repo Owner)
+\n Please contact ${gitData.name} (Repo owner)
 
 \n![ProfilePicture](${gitData.avatar_url})
 \nGithub Email: "hidden" (Email showing null when retrieving ${gitData.email} from Github API)
