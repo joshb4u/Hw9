@@ -121,7 +121,7 @@ ${usage}
 \`\`\`
 
 \n## License
-This project is licensed under the ${licenseName} 
+This project is licensed under ${licenseName} 
 \n[![license](https://img.shields.io/npm/l/license)](${licenseURL})
 
 \n## Contributing
