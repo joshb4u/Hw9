@@ -30,7 +30,7 @@ git clone
 
 
 ## License
-This project is licensed under the MIT 
+This project is licensed under MIT 
 
 [![license](https://img.shields.io/npm/l/license)](https://opensource.org/licenses/MIT)
 
