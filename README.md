@@ -50,7 +50,7 @@ N/A
 
 ## Questions
 
- Please contact Josh (Author)
+ Please contact Josh (Repo Owner)
 
 
 ![ProfilePicture](https://avatars2.githubusercontent.com/u/59143348?v=4)
